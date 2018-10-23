@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".UiFirst">
+
+<ImageView
+    android:padding="5dp"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:src="@drawable/cit_logo"
+    android:id="@+id/bg_img"
+    android:contentDescription="TODO"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/container"
+        android:layout_gravity="center|bottom"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/footer">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="12dp"
+            android:textSize="20dp"
+            android:background="@color/colorPrimary"
+            android:text="Sign In"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_signups_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="12dp"
+            android:text="Sign Up"
+            android:textSize="20dp"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/confirm_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Confirm Registration"
+        android:textSize="20dp"
+        android:layout_above="@id/footer"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:visibility="gone"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/update_slots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="UPDATE SESSIONS"
+        android:textSize="20dp"
+        android:layout_above="@id/footer"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:visibility="gone"/>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:background="#fff"
+        android:layout_alignParentBottom="true">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/ssinfo"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="TODO"/>
+</RelativeLayout>

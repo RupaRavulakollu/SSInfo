@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "971336402483",
+    "firebase_url": "https://careercompass-64741.firebaseio.com",
+    "project_id": "careercompass-64741",
+    "storage_bucket": "careercompass-64741.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971336402483:android:c2f45ed0f69e3b8d",
+        "android_client_info": {
+          "package_name": "com.citchennai.dous.careercompass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971336402483-qubm34ur6fatqvejep9299cqifm1sv0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.citchennai.dous.careercompass",
+            "certificate_hash": "b178e1649e5b24c07dfdab9fbdecb037d3bef14a"
+          }
+        },
+        {
+          "client_id": "971336402483-ip0n7mn43bu2kc3nf0d9jjcevgr1udn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-eVUhj38eba4An1v8n786viju6Fu4mnI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971336402483-ip0n7mn43bu2kc3nf0d9jjcevgr1udn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

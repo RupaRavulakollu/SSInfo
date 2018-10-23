@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">SS InfoSystems</string>
+    <string name="title_text"></string>
+
+    <string name="title_activity_slot_schedule">SlotSchedule</string>
+    <string name="tab_text_1">DAY 1</string>
+    <string name="tab_text_2">DAY 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="day1_session1_sh1">Dare to think beyong B.E</string>
+    <string name="day1_session1_audi">IT Services</string>
+    <string name="day1_session2_sh1">Research as a career</string>
+    <string name="day1_session2_audi">IT Products</string>
+    <string name="day1_session3_sh1">Spot me</string>
+    <string name="day1_session3_audi">Embedded &amp; Engg. Services</string>
+
+<!--day2-->
+    <string name="day2_session1_sh1">My Entrepreneurial Journey</string>
+    <string name="day2_session1_audi">Public Sector</string>
+    <string name="day2_session2_sh1">Ideas to Product</string>
+    <string name="day2_session2_audi">Core Engineering</string>
+    <string name="day2_session3_sh1">We 2 Aspire</string>
+    <string name="day2_session3_audi">Breaking the mould</string>
+
+    <string name="title_activity_agenda">Agenda</string>
+
+
+    <string name="day1_session1_sh1_content">"Avenues in Higher Education and How to seize the opportunities"
+</string>
+    <string name="day1_session1_audi_content">"A discussion on emerging trends and changing industry expectations in IT Services "
+</string>
+    <string name="day1_session2_sh1_content">"Hot areas in research, and tuning
+to research mindset"
+</string>
+    <string name="day1_session2_audi_content">"A discussion on emerging trends in IT Products space and the career opportunities"</string>
+    <string name="day1_session3_sh1_content">What corporates look for in campus talent, and how do you get spotted?  </string>
+    <string name="day1_session3_audi_content">"Experts view on careers in embedded systems, and engineering services"</string>
+
+    <string name="day2_session1_sh1_content">Entrepreneurs share their roller coaster ride, and product pavilion for entrepreneurial ideas
+</string>
+    <string name="day2_session1_audi_content">A fresh look at Opportunities in PSU, Government, Armed Forces
+</string>
+    <string name="day2_session2_sh1_content">"How do you translate ideas to product / services, and perspectives from
+venture capitalists"
+</string>
+    <string name="day2_session2_audi_content">Perspectives from process, manufacturing and automotive industries
+</string>
+    <string name="day2_session3_sh1_content">Things every career woman should know and practical tips for work-life integration
+</string>
+    <string name="day2_session3_audi_content">"Pursuing your passion and getting
+into uncharted waters"
+</string>
+
+    <string name="ITProducts">A discussion on emerging trends in IT Products space and
+the career opportunities
+</string>
+    <string name="ITServices">A discussion on emerging trends and changing industry expectations
+in IT Services
+</string>
+
+</resources>

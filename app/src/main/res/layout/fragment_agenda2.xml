@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:text="9.30 am to 11.00 am"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/back"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="250dp"
+                android:text="11.30 am to 1.00 pm"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:background="@drawable/back"
+                android:textColor="@color/white"
+                android:backgroundTint="@android:color/holo_purple"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@android:color/holo_blue_light"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:text="2.00 pm to 3.30 pm"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/back"
+                android:backgroundTint="@android:color/holo_purple"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:text="3.45 pm to 5.00 pm"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/back"
+                />
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tab1">
+
+                    <TableRow>
+                        <TextView android:text="@string/day2_session1_audi"
+                            android:layout_height="50dp"
+                            android:layout_width="150dp"
+                            android:background="@color/darkblue"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:textColor="@color/white"/>
+                        <TextView android:text="@string/day2_session1_sh1"
+                            android:layout_height="50dp"
+                            android:layout_width="200dp"
+                            android:textSize="15dp"
+                            android:background="@color/darkgreen"
+                            android:gravity="center"
+                            android:textColor="@color/white"/>
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/day2_session1_audi_content"
+                            android:layout_height="100dp"
+                            android:layout_width="190dp"
+                            android:background="@color/lightblue"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:id="@+id/day2first1"
+                            android:textColor="@color/black"/>
+
+                        <TextView android:text="@string/day2_session1_sh1_content"
+                            android:layout_height="100dp"
+                            android:layout_width="200dp"
+                            android:background="@color/lightgreen"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:id="@+id/day2first2"
+                            android:textColor="@color/black"/>
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="190dp"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:background="@drawable/back"
+                            android:text="auditorium"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+                    <TextView android:text="SH -1"
+                        android:layout_height="50dp"
+                        android:layout_width="190dp"
+                        android:textSize="15dp"
+                        android:background="@drawable/back"
+                        android:gravity="center"
+                        android:textColor="@color/black"/>
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tab2"
+                    android:layout_below="@+id/tab1">
+                    <TableRow
+                        android:showDividers="middle">
+                        <TextView android:text="@string/day2_session2_audi"
+                            android:layout_height="50dp"
+                            android:layout_width="190dp"
+                            android:background="@color/darkblue"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:textColor="@color/white"/>
+                        <TextView android:text="@string/day2_session2_sh1"
+                            android:layout_height="50dp"
+                            android:layout_width="190dp"
+                            android:textSize="13dp"
+                            android:gravity="center"
+                            android:background="@color/darkgreen"
+                            android:textColor="@color/white"/>
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/day2_session2_audi_content"
+                            android:layout_height="150dp"
+                            android:layout_width="190dp"
+                            android:background="@color/lightblue"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:id="@+id/day2second1"
+                            android:textColor="@color/black"/>
+
+                        <TextView android:text="@string/day2_session2_sh1_content"
+                            android:layout_height="150dp"
+                            android:layout_width="200dp"
+                            android:background="@color/lightgreen"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:id="@+id/day2second2"/>
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="auditorium"
+                            android:layout_height="50dp"
+                            android:layout_width="190dp"
+                            android:background="@drawable/back"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:textColor="@color/black"/>
+                        <TextView android:text="SH -1"
+                            android:layout_height="50dp"
+                            android:layout_width="190dp"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:background="@drawable/back"
+                            android:textColor="@color/black"/>
+
+                    </TableRow>
+                </TableLayout>
+
+                <TextView android:text="LUNCH BREAK"
+                    android:layout_height="30dp"
+                    android:layout_width="390dp"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:background="@android:color/holo_blue_light"
+                    android:id="@+id/lunch"
+                    android:layout_below="@+id/tab2"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tab3"
+                    android:layout_below="@+id/lunch">
+
+
+                    <TableRow>
+                        <TextView android:text="@string/day2_session3_audi"
+                            android:layout_height="50dp"
+                            android:layout_width="190dp"
+                            android:background="@color/darkblue"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:textColor="@color/white"/>
+                        <TextView android:text="@string/day2_session3_sh1"
+                            android:layout_height="50dp"
+                            android:layout_width="200dp"
+                            android:textSize="15dp"
+                            android:background="@color/darkgreen"
+                            android:gravity="center"
+                            android:textColor="@color/white"/>
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/day2_session3_audi_content"
+                            android:layout_height="100dp"
+                            android:layout_width="200dp"
+                            android:background="@color/lightblue"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:id="@+id/day2third1"
+                            android:textColor="@color/black"/>
+
+                        <TextView android:text="@string/day2_session3_sh1_content"
+                            android:layout_height="100dp"
+                            android:layout_width="190dp"
+                            android:background="@color/lightgreen"
+                            android:textSize="10dp"
+                            android:gravity="center"
+                            android:id="@+id/day2third2"
+                            android:textColor="@color/black"/>
+
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="auditorium"
+                            android:layout_height="50dp"
+                            android:layout_width="190dp"
+                            android:background="@drawable/back"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:textColor="@color/black"/>
+                        <TextView android:text="SH -1"
+                            android:layout_height="50dp"
+                            android:layout_width="200dp"
+                            android:textSize="15dp"
+                            android:background="@drawable/back"
+                            android:gravity="center"
+                            android:textColor="@color/black"/>
+                    </TableRow>
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tab4"
+                    android:layout_below="@+id/tab3">
+                    <TableRow>
+                    <TextView android:text="VALEDICTORY"
+                    android:layout_height="50dp"
+                    android:layout_width="380dp"
+                    android:background="@android:color/holo_orange_dark"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"/>
+
+                    </TableRow>
+                    <TableRow>
+                    <TextView android:text="auditorium"
+                    android:layout_height="50dp"
+                    android:layout_width="380dp"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:background="@android:color/holo_orange_light"
+                    android:textColor="@color/white"/>
+
+                    </TableRow>
+                </TableLayout>
+
+
+                  <android.support.v4.widget.Space
+                      android:layout_width="match_parent"
+                      android:layout_height="10dp" />
+
+
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
